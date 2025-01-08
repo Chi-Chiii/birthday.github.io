@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Landing Section -->
+    <section id="landing">
+        <h1>Happy Birthday, Love! 🎉</h1>
+        <p>You make my world brighter. Today is all about celebrating *you*! 💕</p>
+        <button onclick="scrollToGallery()">View Memories</button>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section id="gallery">
+        <h2>Our Favorite Memories 📸</h2>
+        <div class="gallery-container">
+            <img src="img/photo1.jpg" alt="Memory 1">
+            <img src="img/photo2.jpg" alt="Memory 2">
+            <img src="img/photo3.jpg" alt="Memory 3">
+            <img src="img/photo4.jpg" alt="Memory 4">
+        </div>
+    </section>
+
+    <!-- Message Section -->
+    <section id="message">
+        <h2>A Special Message for You 💌</h2>
+        <p>
+            Happy Birthday, my amazing boyfriend! You’re my favorite person in the whole world. 
+            Thank you for making every day so special. I hope today is filled with all the joy and love you bring into my life. ❤️
+        </p>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section id="countdown">
+        <h2>Countdown to the Surprise 🎁</h2>
+        <div id="timer">
+            <span id="days">00</span> Days
+            <span id="hours">00</span> Hours
+            <span id="minutes">00</span> Minutes
+            <span id="seconds">00</span> Seconds
+        </div>
+    </section>
+
+    <audio id="bg-music" autoplay loop>
+        <source src="audio/birthday-song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

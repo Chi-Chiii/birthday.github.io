@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf2f8;
+    color: #444;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ff6f61;
+}
+
+#landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #ff9a8b, #fecfef);
+    color: #fff;
+}
+
+#landing button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff6f61;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#landing button:hover {
+    background-color: #e63946;
+}
+
+#gallery {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1);
+}
+
+#message {
+    padding: 50px 20px;
+    background-color: #ffe3e3;
+}
+
+#countdown {
+    padding: 50px 20px;
+    background-color: #fce7f3;
+}
+
+#timer span {
+    font-size: 2rem;
+    color: #e63946;
+    margin: 0 10px;
+}
